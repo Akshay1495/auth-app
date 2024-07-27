@@ -1,8 +1,9 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import ProfilePage from './components/ProfilePage';
+import { clear } from '@testing-library/user-event/dist/clear';
 
 function App() {
   return (
